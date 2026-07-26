@@ -1,0 +1,16 @@
+name: NexusVice
+version: ${project.version}
+main: com.nexusuniverse.vice.NexusVicePlugin
+api-version: '1.21'
+author: Nexus Universe
+description: An original recreational-substance and alcohol system -- 8 invented substances, 3 alcohol tiers, tiered intoxication effects, vomiting, overdose/blackout, comedowns, and dangerous combinations. None of it maps to a real drug.
+
+commands:
+  vice:
+    description: Check your status, check into rehab, or (admin) give substances/alcohol.
+    usage: /vice <status|rehab|give <name> [player]|reload>
+
+permissions:
+  nexusvice.admin:
+    description: Give substances/alcohol and reload config.
+    default: op
